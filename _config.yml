@@ -88,4 +88,4 @@ deploy:
   type: github
   repo: https://github.com/weAreThePlayMakers/projekt-kreatywa-blog.git
   branch: [branch]
-  message: Site updated: {{ now('YYYY-MM-DD HH:mm:ss') }}
+  message: Site updated
