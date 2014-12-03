@@ -12,8 +12,8 @@ language:
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
-url: http://yoursite.com
-root: /
+url: http://wearetheplaymakers.github.io
+root: /projekt-kreatywa-blog/
 permalink: :year/:month/:day/:title/
 tag_dir: tags
 archive_dir: archives
@@ -86,6 +86,6 @@ exclude_generator:
 ## Docs: http://hexo.io/docs/deployment.html
 deploy:
   type: github
-  repo: http://wearetheplaymakers.github.io/projekt-kreatywa-blog
-  branch: gh-pages
-  message: [message]
+  repo: https://github.com/weAreThePlayMakers/projekt-kreatywa-blog.git
+  branch: [branch]
+  message: Site updated: {{ now('YYYY-MM-DD HH:mm:ss') }}

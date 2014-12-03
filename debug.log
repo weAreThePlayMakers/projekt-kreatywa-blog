@@ -1,5 +1,5 @@
-date: "2014-12-03 23:35:31.594"
-argv: node /usr/local/bin/hexo server
+date: "2014-12-03 23:45:00.437"
+argv: node /usr/local/bin/hexo deploy
 os: Darwin 13.4.0 darwin x64
 versions:
   http_parser: "1.0"
@@ -12,11 +12,15 @@ versions:
   openssl: 1.0.1j
   hexo: 2.8.3
 ---
-[debug] 23:35:31.185 Config file loaded from /_arch/_gitHub/_weAreThePlayMakers/projekt-kreatywa-blog/_config.yml[debug] 23:35:31.186 Version info checked successfully[debug] 23:35:31.202 Loading database.[debug] 23:35:31.238 Processed: draft.md (2ms)[debug] 23:35:31.238 Processed: page.md (1ms)[debug] 23:35:31.240 Processed: photo.md (3ms)[debug] 23:35:31.240 Processed: post.md (3ms)[debug] 23:35:31.259 Plugin loaded successfully: hexo-renderer-ejs[debug] 23:35:31.359 Plugin loaded successfully: hexo-renderer-jade[debug] 23:35:31.393 Plugin loaded successfully: hexo-renderer-less[debug] 23:35:31.406 Plugin loaded successfully: hexo-renderer-marked[debug] 23:35:31.531 Plugin loaded successfully: hexo-renderer-stylus[debug] 23:35:31.545 Processed: _posts/hello-world.md (4ms)[debug] 23:35:31.546 Processed: _posts/1st-post.md (1ms)[debug] 23:35:31.546 Processed: projektKreatywa-home/index.md (0ms)[debug] 23:35:31.547 Processed: projektKreatywa-work/index.md (1ms)[debug] 23:35:31.562 Processed: source/stylesheets/app.less (8ms)[debug] 23:35:31.562 Processed: source/stylesheets/_base/base.less (0ms)[debug] 23:35:31.562 Processed: source/stylesheets/_base/reset.less (0ms)[debug] 23:35:31.562 Processed: source/stylesheets/_base/typography.less (0ms)[debug] 23:35:31.563 Processed: source/stylesheets/_base/variables.less (1ms)[debug] 23:35:31.563 Processed: source/stylesheets/_layout/layout.less (0ms)[debug] 23:35:31.563 Processed: source/stylesheets/_plugins/syntax.less (0ms)[debug] 23:35:31.565 Processed: layout/archive.jade (12ms)[debug] 23:35:31.565 Processed: layout/base.jade (12ms)[debug] 23:35:31.565 Processed: layout/category.jade (12ms)[debug] 23:35:31.565 Processed: layout/index.jade (12ms)[debug] 23:35:31.565 Processed: layout/page.jade (12ms)[debug] 23:35:31.566 Processed: layout/post.jade (12ms)[debug] 23:35:31.566 Processed: layout/words.jade (12ms)[debug] 23:35:31.566 Processed: layout/writings.jade (12ms)[debug] 23:35:31.566 Processed: layout/_partial/article_list_pagination.jade (12ms)[debug] 23:35:31.566 Processed: layout/_partial/article_meta.jade (12ms)[debug] 23:35:31.566 Processed: layout/_partial/article_pagination.jade (12ms)[debug] 23:35:31.566 Processed: layout/_partial/footer.jade (12ms)[debug] 23:35:31.566 Processed: layout/_partial/head.jade (12ms)[debug] 23:35:31.567 Theme config loaded[debug] 23:35:31.567 Processed: _config.yml (15ms)[debug] 23:35:31.568 Processed: languages/de.yml (16ms)[debug] 23:35:31.569 Processed: languages/default.yml (16ms)[debug] 23:35:31.569 Processed: languages/es.yml (16ms)[debug] 23:35:31.570 Processed: languages/ru.yml (17ms)[debug] 23:35:31.571 Processed: languages/zh-CN.yml (18ms)[debug] 23:35:31.571 Processed: languages/zh-TW.yml (18ms)[debug] 23:35:31.579 Generator: archive (5ms)[debug] 23:35:31.579 Generator: category (0ms)[debug] 23:35:31.580 Generator: home (1ms)[debug] 23:35:31.581 Generator: page (1ms)[debug] 23:35:31.583 Generator: post (2ms)[debug] 23:35:31.583 Generator: tag (0ms)[debug] 23:35:31.584 Generator: asset (1ms)[error] 23:35:31.589 HexoError: Port 4000 has been used. Try other port instead.
-Error: listen EADDRINUSE
-    at errnoException (net.js:904:11)
-    at Server._listen2 (net.js:1042:14)
-    at listen (net.js:1064:10)
-    at net.js:1146:9
-    at asyncCallback (dns.js:68:16)
-    at Object.onanswer [as oncomplete] (dns.js:121:9)
+[debug] 23:45:00.055 Config file loaded from /_arch/_gitHub/_weAreThePlayMakers/projekt-kreatywa-blog/_config.yml[debug] 23:45:00.057 Version info checked successfully[debug] 23:45:00.073 Loading database.[debug] 23:45:00.109 Processed: draft.md (2ms)[debug] 23:45:00.109 Processed: page.md (1ms)[debug] 23:45:00.111 Processed: photo.md (3ms)[debug] 23:45:00.111 Processed: post.md (3ms)[debug] 23:45:00.130 Plugin loaded successfully: hexo-renderer-ejs[debug] 23:45:00.234 Plugin loaded successfully: hexo-renderer-jade[debug] 23:45:00.271 Plugin loaded successfully: hexo-renderer-less[debug] 23:45:00.284 Plugin loaded successfully: hexo-renderer-marked[debug] 23:45:00.411 Plugin loaded successfully: hexo-renderer-stylus[info] 23:45:00.412 Start deploying: github[info] 23:45:00.414 Clearing .deploy folder...[info] 23:45:00.418 Copying files from public folder...[error] 23:45:00.430 TypeError: Object init has no method 'replace'
+TypeError: Object init has no method 'replace'
+    at Object.exports.parse (/usr/local/lib/node_modules/hexo/node_modules/swig/lib/parser.js:437:19)
+    at parse (/usr/local/lib/node_modules/hexo/node_modules/swig/lib/swig.js:343:19)
+    at Object.precompile (/usr/local/lib/node_modules/hexo/node_modules/swig/lib/swig.js:473:23)
+    at Object.compile (/usr/local/lib/node_modules/hexo/node_modules/swig/lib/swig.js:588:16)
+    at exports.commitMessage (/usr/local/lib/node_modules/hexo/lib/plugins/deployer/util.js:17:15)
+    at /usr/local/lib/node_modules/hexo/lib/plugins/deployer/github.js:114:26
+    at /usr/local/lib/node_modules/hexo/node_modules/async/lib/async.js:610:21
+    at /usr/local/lib/node_modules/hexo/node_modules/async/lib/async.js:249:17
+    at iterate (/usr/local/lib/node_modules/hexo/node_modules/async/lib/async.js:149:13)
+    at /usr/local/lib/node_modules/hexo/node_modules/async/lib/async.js:160:25
