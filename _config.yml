@@ -86,6 +86,6 @@ exclude_generator:
 ## Docs: http://hexo.io/docs/deployment.html
 deploy:
   type: github
-  repo: https://github.com/weAreThePlayMakers/projekt-kreatywa-blog
+  repo: http://wearetheplaymakers.github.io/projekt-kreatywa-blog
   branch: gh-pages
   message: [message]
