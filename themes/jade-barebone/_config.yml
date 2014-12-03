@@ -1,0 +1,14 @@
+menu:
+  Home: /
+  what is it: source/projektKreatywa-home/index.md
+  who are we: source/projektKreatywa-work/index.md
+
+excerpt_link: Read More
+
+addthis:
+  enable: false
+
+fancybox: false
+
+google_analytics:
+rss:
